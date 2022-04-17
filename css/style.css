@@ -5,8 +5,8 @@
   --background-color-hero-footer: #2f303a;
   --background-color-main: #ffffff;
   --bacground-color-image: #f5f4fa;
-  --typical-margin: 30px;
 }
+
 body {
   background-color: var(--background-color-main);
   font-family: Roboto, sans-serif;
@@ -20,14 +20,17 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul,
 ol {
   padding-left: 0;
   margin: 0;
 }
+
 img {
   display: block;
 }
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -42,6 +45,7 @@ img {
   font-size: 26px;
   text-decoration: none;
 }
+
 .logo-web {
   color: var(--hover-color);
 }
@@ -49,25 +53,30 @@ img {
 .logo-studio {
   color: #000000;
 }
+
 .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
 }
+
 .main-nav {
   display: flex;
   align-items: center;
 
   border-bottom: 1px solid #ececec;
 }
+
 .header-list {
   list-style: none;
   display: flex;
 }
+
 .item {
   margin-right: 50px;
 }
+
 .header-item {
   display: block;
   padding-top: 32px;
@@ -80,12 +89,15 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .header-list .item:last-child {
   margin-right: 0;
 }
+
 .current {
   color: var(--hover-color);
 }
+
 .header-item:hover,
 .header-item:focus {
   color: var(--hover-color);
@@ -99,9 +111,11 @@ img {
 .contact-item {
   margin-right: 50px;
 }
+
 .header-contacts .contact-item:last-child {
   margin-right: 0;
 }
+
 .header-contact {
   display: block;
   padding-top: 32px;
@@ -110,6 +124,7 @@ img {
   text-decoration: none;
   color: var(--text-color);
 }
+
 .header-contact:hover,
 .header-contact:focus {
   color: var(--hover-color);
@@ -121,6 +136,7 @@ img {
   background-color: var(--background-color-hero-footer);
   text-align: center;
 }
+
 .hero-title {
   margin-left: auto;
   margin-right: auto;
@@ -133,14 +149,13 @@ img {
   margin-bottom: 30px;
   text-transform: uppercase;
 }
+
 .hero-button {
-  display: inline-block;
   border-radius: 4px;
-  padding: 10px 32px;
+  min-width: 200px;
+  height: 50px;
 
   font-family: inherit;
-  width: 200px;
-  height: 50px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -151,6 +166,7 @@ img {
   background-color: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: #188ce8;
@@ -168,17 +184,21 @@ img {
   clip-path: insert(100%);
   margin: -1px;
 }
+
 .benefits-list {
   display: flex;
   list-style: none;
 }
+
 .benefits-item {
   margin-right: 30px;
   width: 270px;
 }
+
 .benefits-list .benefits-item:last-child {
   margin-right: 0;
 }
+
 .item-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -190,7 +210,6 @@ img {
   color: var(--title-color);
   text-transform: uppercase;
 }
-
 .text {
   font-size: 14px;
   line-height: 1.71;
@@ -211,10 +230,12 @@ img {
   color: var(--title-color);
   text-align: center;
 }
+
 .about-list {
   display: flex;
   list-style: none;
 }
+
 .about-item {
   margin-right: 30px;
 }
@@ -222,10 +243,12 @@ img {
 .team {
   background-color: var(--bacground-color-image);
 }
+
 .team-members {
   display: flex;
   list-style: none;
 }
+
 .team-member {
   margin-right: 30px;
   text-align: center;
@@ -234,6 +257,7 @@ img {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--background-color-main);
 }
+
 .team-members .team-member:last-child {
   margin-right: 0;
 }
@@ -272,6 +296,7 @@ img {
   padding-bottom: 60px;
   background-color: var(--background-color-hero-footer);
 }
+
 .footer-logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -281,19 +306,24 @@ img {
   color: var(--hover-color);
   text-decoration: none;
 }
+
 .studio {
   color: var(--background-color-main);
 }
+
 .footer-adress {
   margin-top: 20px;
 }
+
 .footer-contacts {
   list-style: none;
   font-style: normal;
 }
+
 .footer-item {
   margin-bottom: 9px;
 }
+
 .adress-link {
   font-size: 14px;
   line-height: 1.71;
@@ -301,6 +331,7 @@ img {
   color: var(--background-color-main);
   text-decoration: none;
 }
+
 .footer-contact {
   font-size: 14px;
   line-height: 24px;
@@ -314,6 +345,7 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .btn-item {
   padding-bottom: 50px;
   margin-right: 8px;
@@ -334,6 +366,7 @@ img {
   border: 0px;
   border-radius: 4px;
 }
+
 .btn:hover,
 .btn:focus {
   background-color: var(--hover-color);
@@ -341,6 +374,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 .portfolio {
   position: absolute;
   white-space: nowrap;
