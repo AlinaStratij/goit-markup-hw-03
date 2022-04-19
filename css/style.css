@@ -108,12 +108,11 @@ img {
   display: flex;
   margin-left: auto;
   list-style: none;
-
-  font-weight: 500px;
-  font-size: 14px;
 }
 .contact-item {
   margin-right: 50px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .header-contacts .contact-item:last-child {
