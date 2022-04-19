@@ -36,6 +36,9 @@ img {
   padding-bottom: 94px;
 }
 /* section "header" */
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
 .header-logo {
   margin-right: 93px;
@@ -64,8 +67,6 @@ img {
 .main-nav {
   display: flex;
   align-items: center;
-
-  border-bottom: 1px solid #ececec;
 }
 
 .header-list {
@@ -107,6 +108,9 @@ img {
   display: flex;
   margin-left: auto;
   list-style: none;
+
+  font-weight: 500px;
+  font-size: 14px;
 }
 .contact-item {
   margin-right: 50px;
@@ -133,6 +137,7 @@ img {
 /* section "hero" */
 .hero {
   padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--background-color-hero-footer);
   text-align: center;
 }
@@ -218,10 +223,11 @@ img {
 }
 /* section "about" */
 .about {
-  background-color: var(--bacground-color-image);
+  padding-top: 0;
 }
+
 .about-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -235,10 +241,13 @@ img {
   display: flex;
   list-style: none;
 }
-
 .about-item {
   margin-right: 30px;
 }
+.about-list .about-item:last-child {
+  margin-right: 0;
+}
+
 /* section "team" */
 .team {
   background-color: var(--bacground-color-image);
@@ -263,7 +272,7 @@ img {
 }
 
 .team-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -323,6 +332,9 @@ img {
 .footer-item {
   margin-bottom: 9px;
 }
+.footer-contacts .footer-item:last-child {
+  margin-bottom: 0;
+}
 
 .adress-link {
   font-size: 14px;
@@ -341,13 +353,13 @@ img {
 }
 /* страница "Портфолио" */
 .filter-btn {
+  margin-bottom: 50px;
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
 .btn-item {
-  padding-bottom: 50px;
   margin-right: 8px;
 }
 
@@ -415,7 +427,7 @@ img {
   padding: 20px 24px;
 }
 .portfolio-title {
-  margin-bottom: ;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
